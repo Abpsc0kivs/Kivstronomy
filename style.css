@@ -1,0 +1,48 @@
+html{
+    background-image: url(./247088.png);
+    background-color: #cccccc ;
+}
+#primary_headline{
+    color: plum;
+    text-decoration: underline;
+}
+p{
+    color: blueviolet;
+}
+h3{
+    color: plum;
+}
+ul{
+    color: blueviolet;
+}
+ol{
+    color: blueviolet;
+}
+h2{
+    color: blanchedalmond;
+}
+h3{
+    color: darkgoldenrod;
+    text-align: center;
+    text-emphasis: calc(2.5);
+}
+image{
+    align-self: center;
+}
+button{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: transparent;
+    height: 50px;
+    width:300px;
+    color:plum;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.6);
+}
+.container{
+    background-image: url(./247088.png);
+    background-image: calc(300px,50px);
+}
