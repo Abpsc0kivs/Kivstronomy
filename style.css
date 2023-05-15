@@ -4,7 +4,9 @@ html{
 }
 #primary_headline{
     color: plum;
+    font-family: 'Source Serif Pro', serif;
     text-decoration: underline;
+    text-align: center;
 }
 p{
     color: blueviolet;
@@ -34,7 +36,10 @@ button{
     align-self: center;
     text-align: center;
     cursor: pointer;
-    border: 1px solid #3498db;
+    border: 1px dashed plum ;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 0px 10px 0px 10px ;
     background-color: transparent;
     height: 50px;
     width:300px;
@@ -42,7 +47,15 @@ button{
     font-size: 1.5em;
     box-shadow: 0 6px 6px rgba(0,0,0,0.6);
 }
-.container{
-    background-image: url(./247088.png);
-    background-image: calc(300px,50px);
+*{
+    font-family: 'Comic Neue', cursive;
 }
+nav a{
+    color: plum;
+}
+footer {
+    background-color:transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
