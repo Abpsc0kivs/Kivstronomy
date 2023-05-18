@@ -43,7 +43,7 @@ h4{
     font-family: 'Merriweather', serif;
 }
 .my_msg{
-    border: 2px #fff solid ;
+    border: 2px palevioletred solid ;
     position: relative;
     top: 1000px;
     border-radius: 20px;
@@ -134,4 +134,20 @@ marquee{
     text-align: center;
     margin-top: 100px;
    }
+   button{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+    border: 1px dashed plum ;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 0px 10px 0px 10px ;
+    background-color: rgb(127, 157, 188);
+    height: 50px;
+    width:300px;
+    color:plum;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.6);
+    }
 }
