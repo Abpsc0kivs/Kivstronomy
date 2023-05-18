@@ -4,7 +4,7 @@ html{
 }
 #primary_headline{
     color: plum;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Merriweather', serif;
     text-decoration: underline;
     text-align: center;
 }
@@ -28,7 +28,25 @@ ol{
     color: blueviolet;
 }
 h2{
-    color: blanchedalmond;
+    color: plum;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    width: 900px;
+}
+span{
+    color: crimson;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline red;
+}
+h4{
+    color: indianred;
+    font-family: 'Merriweather', serif;
+}
+.my_msg{
+    border: 2px #fff solid ;
+    position: relative;
+    top: 1000px;
+    border-radius: 20px;
 }
 h3{
     color: darkgoldenrod;
@@ -105,6 +123,10 @@ marquee{
     }
 }
 @media (orientation: portrait){
+   #primary_headline{
+    margin-top: 80px;
+    font-size: 80px;
+   }
    #secondary_headline{
     color: plum;
     font-family: 'Source Serif Pro', serif;
