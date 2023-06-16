@@ -15,17 +15,8 @@ html{
     text-align: center;
     margin-top: 100px;
 }
-p{
-    color: blueviolet;
-}
-h3{
-    color: plum;
-}
-ul{
-    color: blueviolet;
-}
-ol{
-    color: blueviolet;
+*{
+    font-family: 'Comic Neue', cursive;
 }
 h2{
     color: plum;
@@ -33,26 +24,49 @@ h2{
     font-size: 40px;
     width: 900px;
 }
+h3{
+    color: darkgoldenrod;
+    text-align: center;
+    text-emphasis: calc(2.5);
+    clear: both;
+}
+h4{
+    color: indianred;
+    font-family: 'Merriweather', serif;
+}
+p{
+    color: blueviolet;
+}
+ul{
+    color: blueviolet;
+}
+ol{
+    color: blueviolet;
+}
 span{
     color: crimson;
     font-family: 'Merriweather', serif;
     text-decoration: underline red;
 }
-h4{
-    color: indianred;
-    font-family: 'Merriweather', serif;
+label{
+    color: blueviolet;
+}
+input{
+    border: blueviolet;
+    border-radius: 20px;
+}
+form{
+    gap: 20px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 950px;
 }
 .my_msg{
     border: 2px palevioletred solid ;
     position: relative;
     top: 1000px;
     border-radius: 20px;
-}
-h3{
-    color: darkgoldenrod;
-    text-align: center;
-    text-emphasis: calc(2.5);
-    clear: both;
 }
 img{
     image-rendering: crisp-edges;
@@ -64,6 +78,16 @@ p{
 }
 hr{
         clear: both;
+}
+.quasar img{
+    float: left;
+    display: inline;
+}
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 button{
     align-items: center;
@@ -81,17 +105,8 @@ button{
     font-size: 1.5em;
     box-shadow: 0 6px 6px rgba(0,0,0,0.6);
 }
-*{
-    font-family: 'Comic Neue', cursive;
-}
 nav a{
-    color: plum;
-}
-footer {
-    background-color: transparent;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    color: rgb(252, 157, 252);
 }
 .container{
     display: inline;
@@ -104,6 +119,10 @@ marquee{
 @media(max-width:600px){
     /* CSS for screens below or equal to 600px wide */
     /* the information in paranthesis is the break point information*/
+     #primary_headline{
+            display: flex;
+            flex-basis: 50rem;
+     }
      #secondary_headline{
             color: plum;
             font-family: 'Source Serif Pro', serif;
@@ -116,10 +135,14 @@ marquee{
         align-items: right;
         align-self: right;
     }
-}
-@media(min-width:600px){
-    h1{
-        font-size: 40px;
+    h2{
+        display: flex;
+        -ms-flex-align: start;
+        flex-basis: 300px;
+    }
+    footer{
+        display: flex;
+        align-self: center;
     }
 }
 @media (orientation: portrait){
@@ -150,5 +173,6 @@ marquee{
     color:plum;
     font-size: 1.5em;
     box-shadow: 0 6px 6px rgba(0,0,0,0.6);
+    display: block;
     }
 }
